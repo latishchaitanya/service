@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table align="center" border="0" width="70%"height="100%">
+        <tr><td colspan="2" height="125" align="center" style="background: lavender"><img height="120" width="100%" src="guru.jpg"></td></tr>
+        <tr>       
+            <td height="700" colspan="2" align="center" style="background:rgb(154, 236, 225)">
+
+                <!-- Body Start-->		
+        <center>
+            <div class="reg">
+                <form name="frm"  method="get" action="/CallMeGuru/StoreProvider">
+
+                    <font> <h1>Provider Form</h1></font>
+                    <div class="inputbox"> 
+                        <label>Full Name</label><br>
+                        <input  type="text"  name="txtName" >
+                    </div>
+                    <div class="inputbox">
+                        <label>Password</label><br>
+                        <input type="password"  name="txtPwd"  >
+                        
+                    </div>      
+                    <div class="inputbox">
+                        <label>Email Id</label><br>
+                        <input type="text"  name="txtEmail"  >
+                        
+                    </div>   
+                    <div class="inputbox">
+                        <label>Mobile number</label><br>
+                        <input type="text"  name="txtPhone"  >
+                        
+                    </div> 
+                    <div class="inputbox">
+                        <label>Service</label><br>
+                        <select  name=OpService>
+                            <option value=Electrician>Electrician</option>
+                            <option value=Mechanic>Mechanic</option>
+                            <option value=Plumber>Plumber</option>
+                            <option value=Carpentar>Carpentar</option>
+                            <option value=Pharmacy>Pharmacy</option>
+                        </select></div>
+                    <br>
+                    <div class="inputbox">
+                        <label>Address</label><br>
+                        <input type="text"  name="txtAddrs"  >
+                       <br><br>
+                    </div> 
+                    <input type="submit"  value="Register">
+                </form>
+            </div>
+        </center>
+        <!--Body End--->
+    </td>
+</tr>
+<tr><td colspan="2" align="center" style="background:lime;color:indigo">&copy;2022. All Rights Reserved</td></tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table align="center" border="0" width="100%">
+        <tr><td colspan="2" height="125" align="center" style="background: lavender"><img height="150" width="100%" src="guru.jpg"></td></tr>
+        <tr>       
+            <td height="500" colspan="2" align="center" style="background:rgb(154, 236, 225)">
+
+                <!-- Body Start-->		
+        <center>
+            <div class="reg" style="top: auto">
+                <form name="frm"  method="get" action="/CallMeGuru/StoreProblem">
+
+                    <h1>Post Problem</h1>
+                    <div class="inputbox">
+                    <label>Select Your Problem</label> 
+                    <br><br>
+                        <select  name=drpService>
+                            <option value=Mechanic>Mechanic</option>
+                            <option value=Pharmacy>Pharmacy</option>
+                            <option value=Carpentor>Carpenter</option>
+                            <option value=Plumber>Plumber</option>
+                            <option value=Electrician>Electrician</option>
+                        </select>
+                        
+                    </div>
+                    <br>
+
+                    <div class="inputbox"> 
+                    
+                        <textarea rows="3" cols="16" name="txtDesc" ></textarea>
+                        <label>Description</label>
+                    </div><br>
+                    <div class="inputbox">
+                        <textarea rows="4" cols="16" name="txtLoc" ></textarea>
+                        <label>Location</label>
+                    </div>      <br>
+                    <div class="inputbox">
+                        <input type="text"  name="txtPhone" size="16" >
+                        <label>Phone</label>
+                    </div> 
+                    <input type="submit"  value="Post">
+                    <a href="custumerhome.html">
+                    <input type="button"  value="Back"></a>
+                </form>
+            </div>
+        </center>
+        <!--Body End--->
+    </td>
+</tr>
+<tr><td colspan="2" align="center" style="background:lime;color:indigo">&copy;2022. All Rights Reserved</td></tr>
+</table>
+
+
+</body>
+</html>
